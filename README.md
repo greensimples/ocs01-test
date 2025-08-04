@@ -56,47 +56,44 @@ the release binary is located in this folder after successful build.
 after running, follow the menu to interact with the contract
 
 __________________________________________
-# guide to run!
+guide to run!
 
-
-clone '''git clone https://github.com/greensimples/ocs01-test.git'''
-
+```bash
+git clone https://github.com/greensimples/ocs01-test.git
 
 **following command**
-'''./target/release/ocs01-test'''
+'''./target/release/ocs01-test
 
 __________________________________________
 # make sure you have create file 'wallet.json'
 with the following
-
-'''{
+__________________________________________
+{
   "priv": "your private key",
   "addr": "you adddres",
   "rpc": "https://octra.network"
-}'''
+}
 
-
+____________________________________________
 # IMPORTANT
 this guide if you clone with my git!
-
-
-
+____________________________________________
 # HERE EXAMPLE FILE
-*root
-├── .git
-├── EI/
-│   └── exec_interface.json
-├── src/
-│   └── main.rs
-├── target/
-│   ├── release/
-│   │   ├── ocs01-test     
-│   │   ├── wallet.json
-│   │   ├── exec_interface.json  
-│   │   └── ...           
-│   └── ...
-├── .gitignore
-├── Cargo.lock
-├── Cargo.toml
-├── LICENSE
-└── README.md*
+root
+└── .git
+└── EI/
+└── exec_interface.json
+└── src/
+└── main.rs
+└── target/
+└── release/
+├── ocs01-test
+├── wallet.json
+├── exec_interface.json
+└── ...
+└── ...
+└── .gitignore
+└── Cargo.lock
+└── Cargo.toml
+└── LICENSE
+└── README.md
