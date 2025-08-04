@@ -54,3 +54,49 @@ the release binary is located in this folder after successful build.
 *for this task the ei file contains the interface for contract at address octBUHw585BrAMPMLQvGuWx4vqEsybYH9N7a3WNj1WBwrDn, do not modify it*
 
 after running, follow the menu to interact with the contract
+
+__________________________________________
+# guide to run!
+
+
+clone '''git clone https://github.com/greensimples/ocs01-test.git'''
+
+
+**following command**
+'''./target/release/ocs01-test'''
+
+__________________________________________
+# make sure you have create file 'wallet.json'
+with the following
+
+'''{
+  "priv": "your private key",
+  "addr": "you adddres",
+  "rpc": "https://octra.network"
+}'''
+
+
+# IMPORTANT
+this guide if you clone with my git!
+
+
+
+# HERE EXAMPLE FILE
+*root
+├── .git
+├── EI/
+│   └── exec_interface.json
+├── src/
+│   └── main.rs
+├── target/
+│   ├── release/
+│   │   ├── ocs01-test     
+│   │   ├── wallet.json
+│   │   ├── exec_interface.json  
+│   │   └── ...           
+│   └── ...
+├── .gitignore
+├── Cargo.lock
+├── Cargo.toml
+├── LICENSE
+└── README.md*
